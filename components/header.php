@@ -72,14 +72,15 @@ require 'database/dbConnection.php';
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/notice.css">
 			<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-		<link rel="stylesheet" type="text/css" href="styles/notice_responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/notice_reponsive.css">
 	<?php
 	}
 	else if ($current_page == 'activities-details.php') {
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/notice.css">
 			<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-		<link rel="stylesheet" type="text/css" href="styles/notice_responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/notice_reponsive.css">
+			<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<?php
 	}
 	?>
