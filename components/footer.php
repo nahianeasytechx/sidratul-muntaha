@@ -108,6 +108,19 @@
 					<script src="js/lightbox.min.js"></script>
 			<?php
 		}
+		 else if ($current_page == 'blog-details.php') {
+			?>
+			<!-- Gallery -->
+			<script src="js/jquery-3.2.1.min.js"></script>
+			<script src="styles/bootstrap4/popper.js"></script>
+			<script src="styles/bootstrap4/bootstrap.min.js"></script>
+			<script src="plugins/easing/easing.js"></script>
+			<script src="plugins/parallax-js-master/parallax.min.js"></script>
+					<script src="js/lightbox.min.js"></script>
+					<script src="js/blogsGrid.js"></script>
+					<script src="js/activities.js"></script>
+			<?php
+		}
 	?>
 </body>
 </html>

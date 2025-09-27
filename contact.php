@@ -3,79 +3,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 $page_title = 'Contact'; // Set the page title
 ?>
 <?php require './components/header.php'; ?>
-<style>
-	.contact_content {
-  width: 100%;
-  padding-top: 9px;
-  padding-left: 45px;
-}
 
-.contact_map {
-  padding-top: 100px;
-}
-
-/* Tabs */
-.v-tab {
-  display: flex;
-}
-
-.v-tab_tab-head {
-  margin: 0;
-  padding: 0;
-  float: left;
-  list-style: none;
-  height: 32px;
-  width: 125px; /* replaced variable */
-}
-
-.v-tab_tab-head li {
-  margin: 0 0 1px 0;
-  cursor: pointer;
-  padding: 0px 10%;
-  height: 32px;
-  line-height: 31px;
-  color: #333; /* replaced variable */
-  border-bottom: 0px;
-  overflow: hidden;
-  position: relative;
-  width: 80%;
-}
-
-.v-tab_tab-head li:hover {
-  background-color: #f5f5f5; /* replaced variable */
-  color: #000;
-}
-
-.v-tab_tab-head li.active {
-  border-right: 3px solid #94399e; /* replaced variable */
-  background-color: #fff;
-  color: #94399e; /* replaced variable */
-  display: block;
-}
-
-.v-tab_container {
-  border-left: 1px solid #ccc; /* replaced variable */
-  float: left;
-  width: 500px; /* replaced variable */
-  min-height: 132px;
-}
-
-.v-tab_content {
-  padding: 10px 20px;
-  display: none;
-}
-
-.v-tab_content > :first-child {
-  margin-top: 0;
-}
-
-body {
-  padding: 50px;
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-</style>
 <!--=======================================================================-->
 <!------------------------ Your Content Start From Here --------------------->
 <!--=======================================================================-->

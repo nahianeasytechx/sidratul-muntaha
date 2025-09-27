@@ -33,23 +33,34 @@ $page_title = 'Gallery'; // Set the page title
 <!-- Photos Section -->
 <div class="photos">
     <div class="container py-5">
-        <h1 class="text-center py-2">Photos</h1>
+        <h1 class="text-center py-2">Gallery</h1>
         <div class="row pt-3">
             <?php
             // Array of photos
             $photos = [
-                "images/photos1.webp",
-                "images/photos2.webp",
-                "images/photos3.webp",
-                "images/photos4.webp",
-                "images/photos5.webp",
-                "images/photos6.webp"
+                "images/WhatsApp Image 2025-09-26 at 2.28.54 AM (1).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.28.54 AM (2).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.28.54 AM (3).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.28.54 AM (4).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.28.54 AM (5).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.28.54 AM (6).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.28.54 AM (7).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.28.54 AM (8).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.30.27 AM.jpeg",
+               "images/WhatsApp Image 2025-09-26 at 2.30.29 AM (1).jpeg",            
+                "images/WhatsApp Image 2025-09-27 at 2.45.23 PM.jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.30.29 AM (2).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.30.29 AM (3).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.30.29 AM (4).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.30.29 AM (5).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.30.29 AM (6).jpeg",
+                "images/WhatsApp Image 2025-09-26 at 2.30.29 AM (7).jpeg",
             ];
 
             foreach ($photos as $photo) {
                 echo '<div class="col-sm-12 col-md-6 col-lg-4 image-alignment">';
                 echo '<a href="'.$photo.'" data-lightbox="news-gallery">';
-                echo '<img src="'.$photo.'" alt="" class="img-fluid">';
+                echo '<img src="'.$photo.'" alt="" class="img-fluid ">';
                 echo '</a>';
                 echo '</div>';
             }

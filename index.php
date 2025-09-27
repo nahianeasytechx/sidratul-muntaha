@@ -194,16 +194,16 @@ $page_title = 'Home'; // Set the page title
 						<!-- Slider Item -->
 						<div class="owl-item">
 							<div class="course">
-								<div class="course_image"><img src="images/tree-plantation.webp" alt=""></div>
+								<div class="course_image"><img src="images/Financial Support For Madrasha Students.jpeg" alt=""></div>
 								<div class="course_body">
 									<div class="course_header d-flex flex-row align-items-center justify-content-start">
 										<div class="course_tag"><a href="#">Activities</a></div>
 
 									</div>
 									<div class="course_title">
-										<h3><a href="courses.html">Tree Plantation</a></h3>
+										<h3><a href="courses.html" class="truncated-title">Financial Support For Madrasha Students</a></h3>
 									</div>
-									<div class="course_text">Planting Tree is Sadaqah Jariyah.As Long as animals and other people benifite from the tree ,the one wo planted it will continue to earn ... </div>
+									<div class="course_text" class=""> Supporting Madrasa students financially is a noble deed that aids their education and spiritual growth.</div>
 									<div class="course_footer d-flex align-items-center justify-content-start">
 										<!-- <div class="course_author_image"><img src="images/featured_author.jpg" alt="https://unsplash.com/@anthonytran"></div>
 											<div class="course_author_name">By <a href="#">James S. Morrison</a></div>
@@ -216,16 +216,16 @@ $page_title = 'Home'; // Set the page title
 						<!-- Slider Item -->
 						<div class="owl-item">
 							<div class="course">
-								<div class="course_image"><img src="images/self-reliance.webp" alt=""></div>
+								<div class="course_image"><img src="images/WhatsApp Image 2025-09-26 at 2.30.29 AM (8).jpeg" alt=""></div>
 								<div class="course_body">
 									<div class="course_header d-flex flex-row align-items-center justify-content-start">
 										<div class="course_tag"><a href="#">New</a></div>
 
 									</div>
 									<div class="course_title">
-										<h3><a href="courses.html">General Fund</a></h3>
+										<h3><a href="courses.html">Providing Relief</a></h3>
 									</div>
-									<div class="course_text">Planting Tree is Sadaqah Jariyah.As Long as animals and other people benifite from the tree ,the one wo planted it will continue to earn ...</div>
+									<div class="course_text turncated-"> Providing Relief For the People with Financial struggles to make a better society </div>
 									<div class="course_footer d-flex align-items-center justify-content-start">
 										<!-- <div class="course_author_image"><img src="images/course_author_2.jpg" alt=""></div>
 											<div class="course_author_name">By <a href="#">Mark Smith</a></div>
@@ -238,7 +238,7 @@ $page_title = 'Home'; // Set the page title
 						<!-- Slider Item -->
 						<div class="owl-item">
 							<div class="course">
-								<div class="course_image"><img src="images/dawah-education.webp" alt="https://unsplash.com/@annademy"></div>
+								<div class="course_image"><img src="images/WhatsApp Image 2025-09-26 at 3.03.23 AM.jpeg" alt=""></div>
 								<div class="course_body">
 									<div class="course_header d-flex flex-row align-items-center justify-content-start">
 										<div class="course_tag"><a href="#">Featured</a></div>
@@ -247,7 +247,7 @@ $page_title = 'Home'; // Set the page title
 									<div class="course_title">
 										<h3><a href="courses.html">Dawah</a></h3>
 									</div>
-									<div class="course_text">Planting Tree is Sadaqah Jariyah.As Long as animals and other people benifite from the tree ,the one wo planted it will continue to earn ...</div>
+									<div class="course_text">Dawah program to enlighten about Islam that , Its the way of life For Everyone</div>
 									<div class="course_footer d-flex align-items-center justify-content-start">
 										<!-- <div class="course_author_image"><img src="images/course_author_3.jpg" alt=""></div>
 											<div class="course_author_name">By <a href="#">Julia Williams</a></div>
@@ -270,13 +270,13 @@ $page_title = 'Home'; // Set the page title
 </div>
 
 <!-- Milestones -->
-<div class="milestones">
-	<!-- Background image artis https://unsplash.com/@thepootphotographer -->
+<!-- <div class="milestones ">
+	
 	<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/milestones.jpg" data-speed="0.8"></div>
 	<div class="container">
 		<div class="row milestones_container">
 
-			<!-- Milestone -->
+	
 			<div class="col-lg-3 milestone_col">
 				<div class="milestone text-center">
 					<div class="milestone_icon"><img src="images/milestone_1.svg" alt=""></div>
@@ -285,7 +285,7 @@ $page_title = 'Home'; // Set the page title
 				</div>
 			</div>
 
-			<!-- Milestone -->
+		
 			<div class="col-lg-3 milestone_col">
 				<div class="milestone text-center">
 					<div class="milestone_icon"><img src="images/milestone_2.svg" alt=""></div>
@@ -294,7 +294,7 @@ $page_title = 'Home'; // Set the page title
 				</div>
 			</div>
 
-			<!-- Milestone -->
+		
 			<div class="col-lg-3 milestone_col">
 				<div class="milestone text-center">
 					<div class="milestone_icon"><img src="images/milestone_3.svg" alt=""></div>
@@ -303,7 +303,7 @@ $page_title = 'Home'; // Set the page title
 				</div>
 			</div>
 
-			<!-- Milestone -->
+
 			<div class="col-lg-3 milestone_col">
 				<div class="milestone text-center">
 					<div class="milestone_icon"><img src="images/milestone_4.svg" alt=""></div>
@@ -314,7 +314,7 @@ $page_title = 'Home'; // Set the page title
 
 		</div>
 	</div>
-</div>
+</div> -->
 
 
 
@@ -346,18 +346,18 @@ $page_title = 'Home'; // Set the page title
     <h1 class="text-center py-2">Photos</h1>
     <div class="row pt-3">
       <div class="col-sm-12 col-md-6 col-lg-4 image-alignment">
-        <a href="images/photos1.webp" data-lightbox="roadtrip">
-          <img src="images/photos1.webp" alt="" class="img-fluid">
+        <a href="images/WhatsApp Image 2025-09-27 at 3.10.53 PM.jpeg" data-lightbox="roadtrip">
+          <img src="images/WhatsApp Image 2025-09-27 at 3.10.53 PM.jpeg" alt="" class="img-fluid">
         </a>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-4 image-alignment">
-        <a href="images/photos2.webp" data-lightbox="roadtrip">
-          <img src="images/photos2.webp" alt="" class="img-fluid">
+        <a href="images/WhatsApp Image 2025-09-27 at 3.10.57 PM.jpeg" data-lightbox="roadtrip">
+          <img src="images/WhatsApp Image 2025-09-27 at 3.10.57 PM.jpeg" alt="" class="img-fluid">
         </a>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-4 image-alignment">
-        <a href="images/photos3.webp" data-lightbox="roadtrip">
-          <img src="images/photos3.webp" alt="" class="img-fluid">
+        <a href="images/WhatsApp Image 2025-09-27 at 3.10.57 PM.jpeg" data-lightbox="roadtrip">
+          <img src="images/WhatsApp Image 2025-09-27 at 3.10.57 PM.jpeg" alt="" class="img-fluid">
         </a>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-4 image-alignment">
@@ -366,18 +366,19 @@ $page_title = 'Home'; // Set the page title
         </a>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-4 image-alignment">
-        <a href="images/photos5.webp" data-lightbox="roadtrip">
-          <img src="images/photos5.webp" alt="" class="img-fluid">
+        <a href="images/WhatsApp Image 2025-09-26 at 2.28.54 AM (5).jpeg" data-lightbox="roadtrip">
+          <img src="images/WhatsApp Image 2025-09-26 at 2.28.54 AM (5).jpeg" alt="" class="img-fluid">
         </a>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-4 image-alignment">
-        <a href="images/photos6.webp" data-lightbox="roadtrip">
-          <img src="images/photos6.webp" alt="" class="img-fluid">
+        <a href="images/WhatsApp Image 2025-09-26 at 2.28.54 AM.jpeg" data-lightbox="roadtrip">
+          <img src="images/WhatsApp Image 2025-09-26 at 2.28.54 AM.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
-    <div class="d-flex justify-content-center mt-4">
+<a href="gallery.php">
+	    <div class="d-flex justify-content-center mt-4">
       <button class="course_button">
         <span>See More</span>
         <span class="button_arrow">
@@ -385,6 +386,7 @@ $page_title = 'Home'; // Set the page title
         </span>
       </button>
     </div>
+</a>
   </div>
 </div>
 
@@ -407,7 +409,7 @@ $page_title = 'Home'; // Set the page title
 						<!-- Slider Item -->
 						<div class="owl-item">
 							<div class="course">
-								<div class="course_image"><img src="images/blogs1.webp" alt=""></div>
+								<div class="course_image"><img src="images/WhatsApp Image 2025-09-26 at 2.28.54 AM (7).jpeg" alt=""></div>
 								<div class="course_body">
 									<div class="course_header d-flex flex-row align-items-center justify-content-start">
 										<div class="course_tag"><a href="#">Blogs</a></div>
@@ -429,7 +431,7 @@ $page_title = 'Home'; // Set the page title
 						<!-- Slider Item -->
 						<div class="owl-item">
 							<div class="course">
-								<div class="course_image"><img src="images/blogs2.webp" alt=""></div>
+								<div class="course_image"><img src="images/WhatsApp Image 2025-09-26 at 2.28.54 AM (3).jpeg" alt=""></div>
 								<div class="course_body">
 									<div class="course_header d-flex flex-row align-items-center justify-content-start">
 										<div class="course_tag"><a href="#">Blogs</a></div>
@@ -451,7 +453,7 @@ $page_title = 'Home'; // Set the page title
 						<!-- Slider Item -->
 						<div class="owl-item">
 							<div class="course">
-								<div class="course_image"><img src="images/blogs3.webp" alt="https://unsplash.com/@annademy"></div>
+								<div class="course_image"><img src="images/WhatsApp Image 2025-09-26 at 2.28.54 AM (5).jpeg" alt=""></div>
 								<div class="course_body">
 									<div class="course_header d-flex flex-row align-items-center justify-content-start">
 										<div class="course_tag"><a href="#">Blogs</a></div>
@@ -630,12 +632,12 @@ $page_title = 'Home'; // Set the page title
 					<!-- News Post -->
 					<div class="news_post d-flex flex-row align-items-start justify-content-start">
 						<div>
-							<div class="news_post_image"><img src="images/news_1.jpg" alt="https://unsplash.com/@beccatapert"></div>
+							<div class="news_post_image"><img src="images/choose1.jpg" alt="https://unsplash.com/@beccatapert"></div>
 						</div>
 						<div class="news_post_body">
 							<div class="news_post_date">April 02, 2018</div>
-							<div class="news_post_title"><a href="news.html">Why Choose online education?</a></div>
-							<div class="news_post_author">By <a href="#">William Smith</a></div>
+							<div class="news_post_title"><a href="news.html">Why Choose Islam?</a></div>
+							<div class="news_post_author">By <a href="#">By Mr A</a></div>
 						</div>
 					</div>
 
@@ -646,8 +648,8 @@ $page_title = 'Home'; // Set the page title
 						</div>
 						<div class="news_post_body">
 							<div class="news_post_date">April 02, 2018</div>
-							<div class="news_post_title"><a href="news.html">Books, Kindle or tablet?</a></div>
-							<div class="news_post_author">By <a href="#">William Smith</a></div>
+							<div class="news_post_title"><a href="news.html">Why choose Sidratul Muntaha?</a></div>
+							<div class="news_post_author">By <a href="#">By MR B</a></div>
 						</div>
 					</div>
 
@@ -658,8 +660,8 @@ $page_title = 'Home'; // Set the page title
 						</div>
 						<div class="news_post_body">
 							<div class="news_post_date">April 02, 2018</div>
-							<div class="news_post_title"><a href="news.html">Why Choose online education?</a></div>
-							<div class="news_post_author">By <a href="#">William Smith</a></div>
+							<div class="news_post_title"><a href="news.html">Why Choose Donating?</a></div>
+							<div class="news_post_author">By <a href="#"> By  MR B</a></div>
 						</div>
 					</div>
 
@@ -670,8 +672,8 @@ $page_title = 'Home'; // Set the page title
 						</div>
 						<div class="news_post_body">
 							<div class="news_post_date">April 02, 2018</div>
-							<div class="news_post_title"><a href="news.html">Books, Kindle or tablet?</a></div>
-							<div class="news_post_author">By <a href="#">William Smith</a></div>
+							<div class="news_post_title"><a href="news.html">Benifit of Helping People</a></div>
+							<div class="news_post_author">By <a href="#">By MR A</a></div>
 						</div>
 					</div>
 
