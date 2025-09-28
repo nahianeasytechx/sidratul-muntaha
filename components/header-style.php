@@ -355,7 +355,7 @@
 	}
 
 	.header_content {
-		height: 90px;
+		height: 65px;
 		-webkit-transition: all 200ms ease;
 		-moz-transition: all 200ms ease;
 		-ms-transition: all 200ms ease;
@@ -513,6 +513,9 @@
 		height: 100%;
 		transform-style: preserve-3D;
 	}
+.menu.active {
+  right: 0;        /* slide into view */
+}
 
 	.menu_close div {
 		width: 100%;
@@ -715,7 +718,7 @@
 
 	.home {
 		width: 100%;
-		height: 100vh;
+		height: 60vh;
 	}
 
 	.home_slider_container {
@@ -765,6 +768,7 @@
 	}
 
 	.home_title {
+		margin-top: 20px;
 		width: 100%;
 		font-size: 72px;
 		line-height: 1.2;
@@ -1919,7 +1923,30 @@
 		font-weight: 600;
 		padding: 20px 0;
 	}
-
+	.notice-title{
+   font-size: 24px;
+   font-weight: 600;
+   color: #008E48;
+	}
+.notice-btn{
+	padding: 10px 20px;
+	background: #07da7049;
+	border: 0;
+	border-radius: 15px;
+	color: #008E48;
+}
+.notice-features{
+	padding: 30px 40px;
+	background: #07da7049;
+	   font-weight: 600;
+   color: #008E48;
+   border-radius: 20px;
+}
+.notice-features h1{
+	font-size: 20px;
+	   font-weight: 600;
+   color: #008E48;
+}
 	.description-card {
 		background-color: white;
 		border-radius: 20px;
@@ -1957,7 +1984,15 @@
 		font-size: 14px;
 
 	}
-
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+	border: 1px solid black;
+}
 	.course-description-subtext button {
 		width: 100%;
 		font-size: 20px;

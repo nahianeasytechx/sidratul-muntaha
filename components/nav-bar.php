@@ -61,15 +61,7 @@
 									>
 										<a href="contact.php">Contact With Us</a>
 									</li>
-									<li 
-										<?php 
-										if ($current_page == 'blogs.php') {
-											echo 'class="active"';
-										} 
-										?>
-									>
-										<a href="blogs.php">Blogs</a>
-									</li>
+
 									<li 
 										<?php 
 										if ($current_page == 'notice.php') {

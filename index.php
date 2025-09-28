@@ -3,10 +3,16 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 $page_title = 'Home'; // Set the page title
 ?>
 <?php require './components/header.php'; ?>
-
+<style>
+		.home {
+		width: 100%;
+		height: 90vh;
+	}
+</style>
 <!--=======================================================================-->
 <!------------------------ Your Content Start From Here --------------------->
 <!--=======================================================================-->
+
 
 <!-- Home -->
 <div class="home">
@@ -390,99 +396,7 @@ $page_title = 'Home'; // Set the page title
   </div>
 </div>
 
-<!-- Blogs -->
-<div class="courses">
-	<div class="container">
 
-
-		<div class="row">
-			<div class="col">
-
-				<!-- Courses Slider -->
-				<br><br><br>
-				<div class="section_title text-center">
-					<h2>Blogs</h2>
-				</div>
-				<div class="courses_slider_container">
-					<div class="owl-carousel owl-theme courses_slider">
-
-						<!-- Slider Item -->
-						<div class="owl-item">
-							<div class="course">
-								<div class="course_image"><img src="images/WhatsApp Image 2025-09-26 at 2.28.54 AM (7).jpeg" alt=""></div>
-								<div class="course_body">
-									<div class="course_header d-flex flex-row align-items-center justify-content-start">
-										<div class="course_tag"><a href="#">Blogs</a></div>
-
-									</div>
-									<div class="course_title">
-										<h3><a href="courses.html">Iftar distribution among the poor under Iftar Distribution 2023</a></h3>
-									</div>
-									<div class="course_text">Planting Tree is Sadaqah Jariyah.As Long as animals and other people benifite from the tree ,the one wo planted it will continue to earn ... </div>
-									<div class="course_footer d-flex align-items-center justify-content-start">
-										<!-- <div class="course_author_image"><img src="images/featured_author.jpg" alt="https://unsplash.com/@anthonytran"></div>
-											<div class="course_author_name">By <a href="#">James S. Morrison</a></div>
-											<div class="course_sales ml-auto"><span>352</span> Sales</div> -->
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Slider Item -->
-						<div class="owl-item">
-							<div class="course">
-								<div class="course_image"><img src="images/WhatsApp Image 2025-09-26 at 2.28.54 AM (3).jpeg" alt=""></div>
-								<div class="course_body">
-									<div class="course_header d-flex flex-row align-items-center justify-content-start">
-										<div class="course_tag"><a href="#">Blogs</a></div>
-
-									</div>
-									<div class="course_title">
-									<h3><a href="courses.html">Iftar distribution among the poor under Iftar Distribution 2023</a></h3>
-									</div>
-									<div class="course_text">Planting Tree is Sadaqah Jariyah.As Long as animals and other people benifite from the tree ,the one wo planted it will continue to earn ...</div>
-									<div class="course_footer d-flex align-items-center justify-content-start">
-										<!-- <div class="course_author_image"><img src="images/course_author_2.jpg" alt=""></div>
-											<div class="course_author_name">By <a href="#">Mark Smith</a></div>
-											<div class="course_sales ml-auto"><span>352</span> Sales</div> -->
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Slider Item -->
-						<div class="owl-item">
-							<div class="course">
-								<div class="course_image"><img src="images/WhatsApp Image 2025-09-26 at 2.28.54 AM (5).jpeg" alt=""></div>
-								<div class="course_body">
-									<div class="course_header d-flex flex-row align-items-center justify-content-start">
-										<div class="course_tag"><a href="#">Blogs</a></div>
-
-									</div>
-									<div class="course_title">
-										<h3><a href="courses.html">Iftar distribution among the poor under Iftar Distribution 2023</a></h3>
-									</div>
-									<div class="course_text">Planting Tree is Sadaqah Jariyah.As Long as animals and other people benifite from the tree ,the one wo planted it will continue to earn ...</div>
-									<div class="course_footer d-flex align-items-center justify-content-start">
-										<!-- <div class="course_author_image"><img src="images/course_author_3.jpg" alt=""></div>
-											<div class="course_author_name">By <a href="#">Julia Williams</a></div>
-											<div class="course_sales ml-auto"><span>352</span> Sales</div> -->
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-					<!-- Courses Slider Nav -->
-					<div class="courses_slider_nav courses_slider_prev trans_200"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
-					<div class="courses_slider_nav courses_slider_next trans_200"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 	</div>
 </div>
 <!-- Why choose -->

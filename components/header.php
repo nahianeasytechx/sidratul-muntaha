@@ -54,13 +54,7 @@ require 'database/dbConnection.php';
 
 	<?php
 	}
-	else if ($current_page == 'blogs.php') {
-	?>
-		<link rel="stylesheet" type="text/css" href="styles/blogs.css">
-				<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-		<link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
-	<?php
-	} 
+
 	else if ($current_page == 'gallery.php') {
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/gallery.css">
@@ -83,7 +77,7 @@ require 'database/dbConnection.php';
 			<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<?php
 	}
-	else if ($current_page == 'blog-details.php') {
+	else if ($current_page == 'notice-details.php') {
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/notice.css">
 			<link rel="stylesheet" type="text/css" href="styles/responsive.css">
@@ -91,6 +85,7 @@ require 'database/dbConnection.php';
 			<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<?php
 	}
+
 	?>
 
 	<!-- Custom CSS -->

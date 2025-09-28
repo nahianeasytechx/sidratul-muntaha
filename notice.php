@@ -74,7 +74,7 @@ border-radius: 15px;
 	</div>
 
 <div class="container">
-<a href="">
+<a href="notice-details.php">
         <div class="card_container">
 <div class="date">
     <p>SAT</p>
@@ -86,7 +86,7 @@ border-radius: 15px;
     <p>4-month residential/non-residential teacher training at As-Sunnah Skill Development Institute – Registration is ongoing.</p>
 </div>
 <div class="btn">
-    <button>Course</button>
+    <button>Notice</button>
 </div>
     </div>
 </a>
