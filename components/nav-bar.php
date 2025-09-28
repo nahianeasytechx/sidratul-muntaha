@@ -72,8 +72,7 @@
 										<a href="notice.php">Notice</a>
 									</li>
 								</ul>
-								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
-
+							
 								<!-- Hamburger -->
 
 								<div class="hamburger menu_mm">

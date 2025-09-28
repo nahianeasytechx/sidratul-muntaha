@@ -718,7 +718,7 @@
 
 	.home {
 		width: 100%;
-		height: 60vh;
+		height: 50vh;
 	}
 
 	.home_slider_container {
@@ -764,13 +764,13 @@
 	}
 
 	.home_text {
-		margin-top: -55px;
+		margin-top: -45px;
 	}
 
 	.home_title {
-		margin-top: 20px;
+		margin-top: 60px;
 		width: 100%;
-		font-size: 72px;
+		font-size: 65px;
 		line-height: 1.2;
 		font-weight: 600;
 		color: #FFFFFF;

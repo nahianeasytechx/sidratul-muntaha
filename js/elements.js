@@ -225,7 +225,7 @@ $(document).ready(function()
 				$(this).addClass('active');
 				var clickedIndex = $('.tab').index(this);
 
-				var panels = $('.tab_panel');
+				var panels = $('.tab_panels');
 				panels.removeClass('active');
 				$(panels[clickedIndex]).addClass('active');
 			});

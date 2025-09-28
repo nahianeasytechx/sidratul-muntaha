@@ -22,9 +22,9 @@ require 'database/dbConnection.php';
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 	<link href="plugins/video-js/video-js.css" rel="stylesheet" type="text/css">
-	 <!-- Lightbox2 CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
-	
+	<!-- Lightbox2 CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+
 
 	<!-- Page Wise CSS File linking -->
 	<?php
@@ -33,56 +33,56 @@ require 'database/dbConnection.php';
 		<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<link rel="stylesheet" type="text/css" href="styles/lightbox.min.css">
-	<?php
-	} else if ($current_page == 'about.php') {
-	?>
-		<link rel="stylesheet" type="text/css" href="styles/about.css">
-		<link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
-		<link rel="stylesheet" type="text/css" href="styles/elements.css">
+
 	<?php
 	} else if ($current_page == 'contact.php') {
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/contact.css">
-				<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+
+	<?php
+	} else if ($current_page == 'about.php') {
+	?>
+		<link rel="stylesheet" type="text/css" href="styles/contact.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/about.css">
+		<link rel="stylesheet" href="styles/elements.css">
+		<link rel="stylesheet" href="styles/elements_responsive.css">
+
 	<?php
 	} else if ($current_page == 'activities.php') {
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/activities.css">
-				<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
 
 	<?php
-	}
-
-	else if ($current_page == 'gallery.php') {
+	} else if ($current_page == 'gallery.php') {
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/gallery.css">
-				<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<link rel="stylesheet" type="text/css" href="styles/gallery_responsive.css">
 	<?php
-	}
-	else if ($current_page == 'notice.php') {
+	} else if ($current_page == 'notice.php') {
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/notice.css">
-			<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<link rel="stylesheet" type="text/css" href="styles/notice_reponsive.css">
 	<?php
-	}
-	else if ($current_page == 'activities-details.php') {
+	} else if ($current_page == 'activities-details.php') {
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/notice.css">
-			<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<link rel="stylesheet" type="text/css" href="styles/notice_reponsive.css">
-			<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<?php
-	}
-	else if ($current_page == 'notice-details.php') {
+	} else if ($current_page == 'notice-details.php') {
 	?>
 		<link rel="stylesheet" type="text/css" href="styles/notice.css">
-			<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<link rel="stylesheet" type="text/css" href="styles/notice_reponsive.css">
-			<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<?php
 	}
 

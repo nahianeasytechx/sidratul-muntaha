@@ -37,7 +37,6 @@
 		<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
 		<script src="plugins/easing/easing.js"></script>
 		<script src="plugins/parallax-js-master/parallax.min.js"></script>
-		<script src="js/custom.js"></script>
 		<script src="js/about.js"></script>
 		<script src="js/elements.js"></script>
 	<?php
@@ -62,8 +61,8 @@
 		<script src="styles/bootstrap4/bootstrap.min.js"></script>
 		<script src="plugins/easing/easing.js"></script>
 		<script src="plugins/parallax-js-master/parallax.min.js"></script>
-		<script src="js/verticletabs.js"></script>
-					<script src="js/custom.js"></script>
+		<script src="js/contact.js"></script>
+		
 	<?php
 	} else if ($current_page == 'gallery.php') {
 	?>
@@ -74,7 +73,7 @@
 		<script src="plugins/easing/easing.js"></script>
 		<script src="plugins/parallax-js-master/parallax.min.js"></script>
 		<script src="js/lightbox.min.js"></script>
-					<script src="js/custom.js"></script>
+		<script src="js/contact.js"></script>
 	<?php
 	} else if ($current_page == 'notice.php') {
 	?>
@@ -85,7 +84,7 @@
 		<script src="plugins/easing/easing.js"></script>
 		<script src="plugins/parallax-js-master/parallax.min.js"></script>
 		<script src="js/lightbox.min.js"></script>
-					<script src="js/custom.js"></script>
+		<script src="js/contact.js"></script>
 	<?php
 	} else if ($current_page == 'activities-details.php') {
 	?>
@@ -96,7 +95,7 @@
 		<script src="plugins/easing/easing.js"></script>
 		<script src="plugins/parallax-js-master/parallax.min.js"></script>
 		<script src="js/lightbox.min.js"></script>
-					<script src="js/custom.js"></script>
+		<script src="js/contact.js"></script>
 	<?php
 	} else if ($current_page == 'notice-details.php') {
 	?>
@@ -109,7 +108,7 @@
 		<script src="js/lightbox.min.js"></script>
 		<script src="js/blogsGrid.js"></script>
 		<script src="js/activities.js"></script>
-					<script src="js/custom.js"></script>
+		<script src="js/contact.js"></script>
 	<?php
 	}
 	?>
