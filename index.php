@@ -6,7 +6,13 @@ $page_title = 'Home'; // Set the page title
 <style>
 		.home {
 		width: 100%;
-		height: 90vh;
+		height: 100vh;
+	}
+
+	@media (max-width:768px){
+		.home{
+			height:64vh
+		}
 	}
 </style>
 <!--=======================================================================-->
@@ -36,8 +42,8 @@ $page_title = 'Home'; // Set the page title
 										<div class="home_subtitle">Sidratul Muntaha Foundation is a non-political, non-profit government-registered organization dedicated to education, da'wah and total human welfare. Registration Number: .</div>
 									</div>
 									<div class="home_buttons">
-										<div class="button home_button"><a href="#">Know more<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
-										<div class="button home_button"><a href="#">All Activities<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+										<div class="button home_button"><a href="activities-details.php">Know more<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+										<div class="button home_button"><a href="activities.php">All Activities<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
 									</div>
 								</div>
 							</div>
@@ -61,8 +67,8 @@ $page_title = 'Home'; // Set the page title
 										<div class="home_subtitle">Sidratul Muntaha Foundation is a non-political, non-profit government-registered organization dedicated to education, da'wah and total human welfare. Registration Number: .</div>
 									</div>
 									<div class="home_buttons">
-										<div class="button home_button"><a href="#">Know more<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
-										<div class="button home_button"><a href="#">All Activities<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+										<div class="button home_button"><a href="activities-details.php">Know more<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+										<div class="button home_button"><a href="activities.php">All Activities<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
 									</div>
 								</div>
 							</div>
@@ -86,8 +92,8 @@ $page_title = 'Home'; // Set the page title
 										<div class="home_subtitle">Sidratul Muntaha Foundation is a non-political, non-profit government-registered organization dedicated to education, da'wah and total human welfare. Registration Number: .</div>
 									</div>
 									<div class="home_buttons">
-										<div class="button home_button"><a href="#">Know more<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
-										<div class="button home_button"><a href="#">All Activities<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+										<div class="button home_button"><a href="activities-details.php">Know more<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+										<div class="button home_button"><a href="activities.php">All Activities<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
 									</div>
 								</div>
 							</div>
@@ -110,8 +116,8 @@ $page_title = 'Home'; // Set the page title
 										<div class="home_subtitle">Sidratul Muntaha Foundation is a non-political, non-profit government-registered organization dedicated to education, da'wah and total human welfare. Registration Number: .</div>
 									</div>
 									<div class="home_buttons">
-										<div class="button home_button"><a href="#">Know more<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
-										<div class="button home_button"><a href="#">All Activities<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+										<div class="button home_button"><a href="activities-details">Know more<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+										<div class="button home_button"><a href="activities.php">All Activities<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
 									</div>
 								</div>
 							</div>
@@ -203,11 +209,11 @@ $page_title = 'Home'; // Set the page title
 								<div class="course_image"><img src="images/Financial Support For Madrasha Students.jpeg" alt=""></div>
 								<div class="course_body">
 									<div class="course_header d-flex flex-row align-items-center justify-content-start">
-										<div class="course_tag"><a href="#">Activities</a></div>
+										<div class="course_tag"><a href="activities.php">Activities</a></div>
 
 									</div>
 									<div class="course_title">
-										<h3><a href="courses.html" class="truncated-title">Financial Support For Madrasha Students</a></h3>
+										<h3><a href="activities-details.php" class="truncated-title">Financial Support For Madrasha Students</a></h3>
 									</div>
 									<div class="course_text" class=""> Supporting Madrasa students financially is a noble deed that aids their education and spiritual growth.</div>
 									<div class="course_footer d-flex align-items-center justify-content-start">
@@ -229,9 +235,9 @@ $page_title = 'Home'; // Set the page title
 
 									</div>
 									<div class="course_title">
-										<h3><a href="courses.html">Providing Relief</a></h3>
+										<h3><a href="activities-details.php">Providing Relief</a></h3>
 									</div>
-									<div class="course_text turncated-"> Providing Relief For the People with Financial struggles to make a better society </div>
+									<div class="course_text turncated-text"> Providing Relief For the People with Financial struggles to make a better society </div>
 									<div class="course_footer d-flex align-items-center justify-content-start">
 										<!-- <div class="course_author_image"><img src="images/course_author_2.jpg" alt=""></div>
 											<div class="course_author_name">By <a href="#">Mark Smith</a></div>
@@ -251,7 +257,7 @@ $page_title = 'Home'; // Set the page title
 
 									</div>
 									<div class="course_title">
-										<h3><a href="courses.html">Dawah</a></h3>
+										<h3><a href="activities-details.php">Dawah</a></h3>
 									</div>
 									<div class="course_text">Dawah program to enlighten about Islam that , Its the way of life For Everyone</div>
 									<div class="course_footer d-flex align-items-center justify-content-start">

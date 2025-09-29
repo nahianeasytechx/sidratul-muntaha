@@ -33,7 +33,7 @@ $page_title = 'Contact'; // Set the page title
 
 	<!-- Contact -->
 	<div class="contact">
-		<div class="container-fluid">
+		<div class="container">
 				<h1 class="text-center mt-5 contact-heading">Contact</h1>
 			<div class="row row-xl-eq-height">
 			

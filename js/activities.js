@@ -14,7 +14,7 @@ const activities = [
     text: "Providing Relief to the wome in need which is a for supporting the society and trying to make people more",
   },
   {
-    image: "images/act3.webp",
+    image: "images/Financial Support For Madrasha Students.jpeg",
     tag: "Regular Projects",
     title: "Meritorious Program",
     link: "activities-details.php",
@@ -56,8 +56,8 @@ const activities = [
             <div class="activities_tag"><a href="#">${activities.tag}</a></div>
           
           </div>
-          <div class="course_title"><h3><a href="${activities.link}">${activities.title}</a></h3></div>
-          <div class="course_text">${activities.text}</div>
+          <div class="course_title truncated-title "><h3><a href="${activities.link}">${activities.title}</a></h3></div>
+          <div class="course_text truncated-text">${activities.text}</div>
           							<div class="button button_1"><a href="#">See details<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
           <div class="course_footer d-flex align-items-center justify-content-start">
           </div>

@@ -513,9 +513,11 @@
 		height: 100%;
 		transform-style: preserve-3D;
 	}
-.menu.active {
-  right: 0;        /* slide into view */
-}
+
+	.menu.active {
+		right: 0;
+		/* slide into view */
+	}
 
 	.menu_close div {
 		width: 100%;
@@ -1139,7 +1141,7 @@
 	}
 
 	.course_price span {
-	
+
 		position: relative;
 		font-size: 18px;
 		color: #06ec79;
@@ -1923,30 +1925,35 @@
 		font-weight: 600;
 		padding: 20px 0;
 	}
-	.notice-title{
-   font-size: 24px;
-   font-weight: 600;
-   color: #008E48;
+
+	.notice-title {
+		font-size: 24px;
+		font-weight: 600;
+		color: #008E48;
 	}
-.notice-btn{
-	padding: 10px 20px;
-	background: #07da7049;
-	border: 0;
-	border-radius: 15px;
-	color: #008E48;
-}
-.notice-features{
-	padding: 30px 40px;
-	background: #07da7049;
-	   font-weight: 600;
-   color: #008E48;
-   border-radius: 20px;
-}
-.notice-features h1{
-	font-size: 20px;
-	   font-weight: 600;
-   color: #008E48;
-}
+
+	.notice-btn {
+		padding: 10px 20px;
+		background: #07da7049;
+		border: 0;
+		border-radius: 15px;
+		color: #008E48;
+	}
+
+	.notice-features {
+		padding: 30px 40px;
+		background: #07da7049;
+		font-weight: 600;
+		color: #008E48;
+		border-radius: 20px;
+	}
+
+	.notice-features h1 {
+		font-size: 20px;
+		font-weight: 600;
+		color: #008E48;
+	}
+
 	.description-card {
 		background-color: white;
 		border-radius: 20px;
@@ -1984,15 +1991,17 @@
 		font-size: 14px;
 
 	}
-iframe {
-    overflow-clip-margin: content-box !important;
-    overflow: clip !important;
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-	border: 1px solid black;
-}
+
+	iframe {
+		overflow-clip-margin: content-box !important;
+		overflow: clip !important;
+		border-width: 2px;
+		border-style: inset;
+		border-color: initial;
+		border-image: initial;
+		border: 1px solid black;
+	}
+
 	.course-description-subtext button {
 		width: 100%;
 		font-size: 20px;
@@ -2004,25 +2013,33 @@ iframe {
 
 	}
 
-	.truncated-text {
-		width: 300px !important;
-		/* Example width */
-		overflow-x: hidden;
-		white-space: nowrap;
-		text-overflow: ellipsis;
-	}
-.truncated-title {
-    display: inline-block;   /* or block, depending on your layout */
-    width: 250px !important;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    vertical-align: middle; /* keeps alignment nice if inline with text */
+/* Title: truncate the <a> inside h3 */
+.course_title h3,
+.course_title h3 a {
+  margin: 0;
+  display: block;               /* required so width works */
+  width: 100%;                  /* fill the column */
+  overflow: hidden;             /* required for ellipsis */
+  white-space: nowrap;          /* single-line */
+  text-overflow: ellipsis;      /* the dots */
+}
+
+/* Text: truncate single line */
+.course_text .truncated-text {
+  display: block;
+  width: 100%;                  /* let container decide width */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;       /* prevents padding from breaking width */
 }
 
 
+
+
 	/* Medium devices (tablets ≤ 1024px) */
-	@media (max-width: 1024px) {
+	@media (max-width: 1200px) {
+		
 		.donate_card_bg {
 			padding: 12px 18px;
 			flex-direction: column;
@@ -2036,22 +2053,124 @@ iframe {
 		.donate_card_bg .cardp p {
 			font-size: 28px;
 		}
+		.home_buttons {
+    margin-top: 18px;
+}
+
+	}
+	/* Medium devices (tablets ≤ 1024px) */
+	@media (max-width: 1024px) {
+		.donate_card_bg {
+			padding: 12px 18px;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+.card_container {
+    margin: 76px 0;
+    width: 100%;
+    border: 1px dotted blanchedalmond;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+		.donate_card_bg .cardp {
+			width: 100%;
+		}
+
+		.donate_card_bg .cardp p {
+			font-size: 28px;
+		}
+		.home_buttons {
+    margin-top: 18px;
+}
+
 	}
 
 	/* Small devices (mobiles ≤ 768px) */
 	@media (max-width: 768px) {
+.home {
+    width: 100%;
+    height: 60vh;
+}
+.home_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 61%;
+}
+.parallax-window {
+    min-height: 316px;
+    background: transparent;
+}
+.featured_container {
+    width: 100%;
+    padding-left: 0px;
+    margin-top: -20px;
+}
+.home_title {
+    margin-top: 64px;
+    width: 100%;
+    font-size: 58px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #FFFFFF;
+}
 
 		.description-card {
 			margin: 10px 0;
 		}
+
+.card_container {
+    margin: 0px 0;
+    width: 100%;
+    border: 1px dotted blanchedalmond;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.contact_content {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 	}
 
 
 	/* Small devices (mobiles ≤ 640px) */
 	@media (max-width: 640px) {
+
+
+
+		.home_title {
+			margin-top: 141px;
+			width: 100%;
+			font-size: 53px;
+			line-height: 1.2;
+			font-weight: 600;
+			color: #FFFFFF;
+		}
+
+		.featured_container {
+			width: 100%;
+			padding-left: 0px;
+			margin-top: 7px;
+		}
+
 		.course_input {
 			width: 500px;
 
+		}
+
+		.about {
+			margin-top: 200px;
 		}
 
 		.donate_card_bg {
@@ -2075,16 +2194,68 @@ iframe {
 			margin: 5px auto;
 		}
 
+		.card_container {
+			margin: 102px 0;
+		}
+
 	}
 
 
 
 	/* Extra small devices (≤ 460px) */
 	@media (max-width: 460px) {
-				.course_input {
+		.home_title {
+			margin-top: 125px;
+			width: 100%;
+			font-size: 20px;
+			line-height: 1.2;
+			font-weight: 600;
+			color: #FFFFFF;
+		}
+
+		.home_subtitle {
+			max-width: 668px;
+			font-size: 11px;
+			line-height: 2;
+			color: #FFFFFF;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 14px;
+		}
+
+		.featured_container {
+			width: 100%;
+			padding-left: 0px;
+			margin-top: 9px;
+		}
+
+		.featured_content {
+			padding-left: 0px;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			background: #f2f1f8;
+		}
+
+		.course_input {
 			width: 400px;
 
 		}
+
+		.about {
+			margin-top: 50px;
+		}
+
+		.parallax-window {
+			min-height: 334px;
+			background: transparent;
+		}
+
+		.card_container {
+			margin: 95px 0;
+
+		}
+
 		.donate_card_bg {
 			padding: 12px;
 
@@ -2129,14 +2300,15 @@ iframe {
 	}
 
 
-	.contact_content {
-		width: 100%;
-		padding-top: 9px;
-		padding-left: 45px;
-	}
+.contact_content {
+    width: 100%;
+    padding-top: 9px;
+    padding-left: 6px;
+
+}
 
 	.contact_map {
-		padding-top: 100px;
+		padding-top: 0px;
 	}
 
 	/* Tabs */
